@@ -1,0 +1,21 @@
+{
+  "name": "simple-login",
+  "version": "1.0.0",
+  "description": "project to automate user authentication",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveenpandey02/simple-login.git"
+  },
+  "author": "Praveen Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praveenpandey02/simple-login/issues"
+  },
+  "homepage": "https://github.com/praveenpandey02/simple-login#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.18"
+  }
+}
