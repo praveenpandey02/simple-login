@@ -16,6 +16,7 @@
   "homepage": "https://github.com/praveenpandey02/simple-login#readme",
   "devDependencies": {
     "@playwright/test": "^1.52.0",
-    "@types/node": "^22.15.18"
+    "@types/node": "^22.15.18",
+    "dotenv": "^16.5.0"
   }
 }
