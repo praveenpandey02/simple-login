@@ -8,7 +8,7 @@ test.beforeEach(async ({ page }) => {
 });
 
 test.describe("positive", () => {
-  test("should login when username and password are correct", async ({
+  test("should login when username and password are correct @smoke", async ({
     page,
   }) => {
     await page.getByLabel("username").fill(username);
