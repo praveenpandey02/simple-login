@@ -21,6 +21,9 @@ jobs:
         run: yarn playwright install --with-deps
       - name: Run Playwright smoke tests
         run: yarn playwright test -g "@smoke"
+        env:
+          USER_NAME: ${{secrets.LOGIN_USER_NAME}}
+          PASSWORD: ${{secrets.LOGIN_PASSWORD}}
       - name: Upload artefacts and reports
         uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
