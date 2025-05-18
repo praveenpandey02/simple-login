@@ -8,15 +8,19 @@ This repository demonstrates the automation of a simple login page. The tool use
    ```
    yarn install
    ```
-3. Run all tests
+3. Create env file
+   ```
+   cp .env.example .env
+   ```
+4. Run all tests
    ```
    yarn playwright test
    ```
-4. Run only smoke tests
+5. Run only smoke tests
    ```
    yarn playwright test -g "@smoke"
    ```
-5. To check flaky tests ('x' is the number of times you would like to run the same test automatically)
+6. To check flaky tests ('x' is the number of times you would like to run the same test automatically)
    ```
    yarn playwright test -g "subset of the test title you would like to check the flakiness of" --repeat-each=x
    ```
